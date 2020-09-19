@@ -1,0 +1,27 @@
+{
+    "name": "sajidpatel/module-sales",
+    "description": "N/A",
+    "config": {
+        "sort-packages": true
+    },
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-sales": "*",
+        "magento/module-signifyd": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SajidPatel\\Sales\\": ""
+        }
+    }
+}
